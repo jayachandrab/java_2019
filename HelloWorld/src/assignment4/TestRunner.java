@@ -6,7 +6,7 @@ package assignment4; /**
  * There will be a detailed information about which test cases have been failed 
  * or passed.
  * 
- * @author: Jayachandra bodireddy
+ * @author:Jayachandra bodireddy
  */
 
 import org.junit.runner.JUnitCore;
@@ -18,7 +18,8 @@ public class TestRunner {
    public static void main(String[] args) {
       Result result = JUnitCore.runClasses(TestJUnit.class);
 
-      if (result.wasSuccessful() == true) {
+      if (result.wasSuccessful() == true)
+      {
          System.out.println("");
          System.out.println("Great!!! All test cases passed.....");
          System.out.println("");

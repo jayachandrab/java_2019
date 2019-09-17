@@ -7,7 +7,7 @@ package assignment4; /**
  * You can add your own test cases to this file by just copy and paste the last three 
  * lines of the code (TestCase10).
  * 
- * @author: jayachandra B
+ * @author: jayachandra Bodireddy
  */
 
 import org.junit.Test;
