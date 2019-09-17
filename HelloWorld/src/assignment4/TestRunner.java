@@ -6,7 +6,7 @@ package assignment4; /**
  * There will be a detailed information about which test cases have been failed 
  * or passed.
  * 
- * @author: Jayachandra
+ * @author: Jayachandra b
  */
 
 import org.junit.runner.JUnitCore;
