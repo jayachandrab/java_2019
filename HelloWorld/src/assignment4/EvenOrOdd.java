@@ -3,7 +3,7 @@ package assignment4;
 /**
  * Given n, return true if n is even otherwise false.
  * 
- * @author Siva Sankar
+ * @author Jayachandra
  */
 
 public class EvenOrOdd {
