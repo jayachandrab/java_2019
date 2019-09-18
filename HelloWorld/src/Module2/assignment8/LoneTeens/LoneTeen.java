@@ -27,13 +27,21 @@ public class LoneTeen {
      * 
      * @return true if the either of a or b is a teen and false otherwise.
      */
-    public static boolean loneTeen(int a, int b) {
+    public static boolean loneTeen(int a, int b)
+    {
         // Your code goes here....
-        if (a >= 13 && a <= 19) {
-            return (b < 13 || b > 19);
-        } else if (b >= 13 && b <= 19) {
-            return (a < 13 || a > 19);
+        if (a>=13 && a<=19){
+            if (b<13 || b>19){
+                return true;
+            }
+        }else if(b>=13 && b<=19)
+        {
+            if (a<13 || a>19){
+                return true;
+            }
         }
-        return false;
+
+            return false;
+
     }
 }
