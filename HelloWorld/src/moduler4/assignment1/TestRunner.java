@@ -6,7 +6,7 @@ package moduler4.assignment1; /**
  * There will be a detailed information about which test cases have been failed 
  * or passed.
  * 
- * @author: Siva Sankar
+ * @author: jayachandra
  */
 
 import org.junit.runner.JUnitCore;
