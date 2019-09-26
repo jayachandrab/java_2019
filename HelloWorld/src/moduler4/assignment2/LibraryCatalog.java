@@ -10,7 +10,7 @@ public class LibraryCatalog {
         CardCatalog card=new CardCatalog();
 
         while(true){
-            System.out.println("Enter your choice 1 for add card\n 2 get card by title \n 3 for exit");
+            System.out.println("Enter your choice 1 for add card\n 2 get card by title \n 3 tot get books by author\n 4 for exit");
             int choice=in.nextInt();
 
             switch (choice){
@@ -32,6 +32,17 @@ public class LibraryCatalog {
                     System.out.println(card.getATitle(title));
                     break;
                 case 3:
+                    System.out.println("enter author name");
+                    author=in.next();
+                    String bk[]=card.getAnAuthor(author);
+                    for(int i=0;i<bk.length;i++){
+                        if(bk[i]!=null){
+                            System.out.println(bk[i]);
+                        }
+                    }
+                    break;
+
+                case 4:
                     System.exit(1);
                 default:
                     System.out.println("Please choice right option");

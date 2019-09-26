@@ -28,8 +28,19 @@ public class CardCatalog {
         }
         return null;
     }
-    public void getAnAuthor(){
+    public String[] getAnAuthor(String auth){
+        String books[]=new String[10];
+        int k=0;
+            for(int i=0;i<cards.length;i++){
+                if (cards[i]!=null){
+                    if(cards[i].getAuthor().equals(auth)){
+                        books[k]=cards[i].getTitle();
+                        k=k+1;
+                    }
+                }
 
+            }
+            return books;
     }
 
     public void getSubject(){
