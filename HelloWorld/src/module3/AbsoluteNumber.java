@@ -9,7 +9,7 @@ package module3;
  * Input : abs(0)
  * Output : 0
  * 
- * @author jayachandra
+ * @author 
  */
 
 public class AbsoluteNumber {
