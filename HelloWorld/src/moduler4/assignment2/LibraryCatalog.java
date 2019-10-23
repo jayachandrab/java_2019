@@ -6,6 +6,12 @@ public class LibraryCatalog {
 
     public static void main(String args[]){
 
+        int someint=20;
+        float some=someint;
+        double d=some;
+        System.out.println(some);
+        System.out.println(d);
+
         Scanner in=new Scanner(System.in);
         CardCatalog card=new CardCatalog();
 
